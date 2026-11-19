@@ -1,0 +1,19 @@
+features,model,accuracy,accuracy_fold_sd,balanced_accuracy,macro_F1,cohen_kappa
+Waveform PCA,MLP,0.9467,0.0281,0.9323,0.9365,0.9305
+Waveform PCA,SVM (RBF),0.9426,0.0212,0.9256,0.9295,0.9251
+Combined,Logistic Regression,0.9057,0.023,0.8992,0.9111,0.8763
+Combined,Random Forest,0.9221,0.0188,0.9113,0.9109,0.8985
+Waveform PCA,Random Forest,0.9139,0.0055,0.8988,0.8991,0.8879
+Waveform PCA,KNN,0.9098,0.0378,0.8861,0.8973,0.8816
+Waveform PCA,Logistic Regression,0.9139,0.0408,0.8867,0.8934,0.8873
+Biomechanical features (14),Random Forest,0.8852,0.0549,0.8841,0.8842,0.8504
+Combined,SVM (RBF),0.8811,0.033,0.8731,0.8823,0.8442
+Combined,Gradient Boosting,0.8852,0.0309,0.8729,0.88,0.8497
+Combined,MLP,0.873,0.0394,0.8703,0.874,0.8339
+Waveform PCA,Gradient Boosting,0.877,0.0118,0.8602,0.8682,0.8386
+Biomechanical features (14),Logistic Regression,0.8566,0.0196,0.8499,0.8599,0.8115
+Combined,KNN,0.8361,0.0366,0.8294,0.8488,0.7827
+Biomechanical features (14),MLP,0.8361,0.0158,0.8327,0.8444,0.7843
+Biomechanical features (14),Gradient Boosting,0.8484,0.0639,0.8306,0.8393,0.8008
+Biomechanical features (14),SVM (RBF),0.8279,0.049,0.8165,0.8255,0.774
+Biomechanical features (14),KNN,0.8074,0.0285,0.806,0.821,0.7452

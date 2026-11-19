@@ -1,0 +1,67 @@
+{
+ "files_found": 219,
+ "duplicates_removed": 1,
+ "other_conditions_skipped": 0,
+ "trials_used": 218,
+ "trials_with_contacts": 216,
+ "subjects": 49,
+ "contacts": 244,
+ "rejected_plates_or_trials": 2,
+ "contacts_per_subject_median": 4.0
+}
+PCA: {'components': 3, 'variance_pct': 86.3, 'per_pc_pct': [55.7, 19.1, 11.5]}
+  K-Means done
+  Ward done
+  GMM done
+algorithm  k  silhouette  davies_bouldin  calinski_harabasz  stability_ARI_mean  stability_ARI_sd  smallest_cluster
+  K-Means  2       0.429           0.969            208.307               0.963             0.026                80
+  K-Means  3       0.325           1.082            170.600               0.896             0.159                49
+  K-Means  4       0.286           1.117            154.123               0.742             0.173                45
+  K-Means  5       0.303           1.030            154.574               0.763             0.130                29
+  K-Means  6       0.290           1.059            146.316               0.667             0.199                17
+  K-Means  7       0.287           1.019            139.845               0.598             0.180                11
+  K-Means  8       0.282           1.024            137.256               0.568             0.096                 9
+     Ward  2       0.387           1.043            184.392               0.613             0.255                95
+     Ward  3       0.313           1.171            137.743               0.671             0.192                46
+     Ward  4       0.305           1.059            119.920               0.512             0.126                10
+     Ward  5       0.322           0.934            118.884               0.501             0.094                 9
+     Ward  6       0.231           1.027            119.938               0.560             0.127                 9
+     Ward  7       0.239           1.101            119.766               0.490             0.091                 9
+     Ward  8       0.240           1.063            121.317               0.522             0.088                 9
+      GMM  2       0.342           1.093            159.929               0.912             0.067               119
+      GMM  3       0.300           1.099            152.279               0.817             0.113                66
+      GMM  4       0.218           1.269            126.311               0.650             0.151                49
+      GMM  5       0.221           1.209            120.983               0.606             0.124                24
+      GMM  6       0.204           1.204             96.952               0.619             0.133                 3
+      GMM  7       0.260           1.071            121.597               0.485             0.096                13
+      GMM  8       0.247           1.266            105.972               0.453             0.092                 9
+{'algorithm': 'K-Means', 'k': 5, 'silhouette': 0.3035, 'agreement_ARI_with_Ward': 0.487, 'agreement_ARI_with_GMM': 0.481}
+  cluster  contacts  subjects                            shape  dip_depth_pct  stance_s
+Pattern 1        47        16            Preserved double bump         29.884     0.576
+Pattern 2        29         9   Impact-dominant, weak push-off         24.170     0.555
+Pattern 3        30        11 Early-dominant, reduced push-off         20.903     0.721
+Pattern 4        83        28              Shallow double bump         14.930     0.698
+Pattern 5        55        20       Flat plateau, slow loading          5.267     0.860
+  Biomechanical features (14)  KNN                  acc 0.807  F1 0.821
+  Biomechanical features (14)  SVM (RBF)            acc 0.828  F1 0.826
+  Biomechanical features (14)  Logistic Regression  acc 0.857  F1 0.860
+  Biomechanical features (14)  Random Forest        acc 0.885  F1 0.884
+  Biomechanical features (14)  Gradient Boosting    acc 0.848  F1 0.839
+  Biomechanical features (14)  MLP                  acc 0.836  F1 0.844
+  Waveform PCA                 KNN                  acc 0.910  F1 0.897
+  Waveform PCA                 SVM (RBF)            acc 0.943  F1 0.930
+  Waveform PCA                 Logistic Regression  acc 0.914  F1 0.893
+  Waveform PCA                 Random Forest        acc 0.914  F1 0.899
+  Waveform PCA                 Gradient Boosting    acc 0.877  F1 0.868
+  Waveform PCA                 MLP                  acc 0.947  F1 0.936
+  Combined                     KNN                  acc 0.836  F1 0.849
+  Combined                     SVM (RBF)            acc 0.881  F1 0.882
+  Combined                     Logistic Regression  acc 0.906  F1 0.911
+  Combined                     Random Forest        acc 0.922  F1 0.911
+  Combined                     Gradient Boosting    acc 0.885  F1 0.880
+  Combined                     MLP                  acc 0.873  F1 0.874
+BEST: {'features': 'Waveform PCA', 'model': 'MLP', 'accuracy': np.float64(0.9467), 'accuracy_fold_sd': np.float64(0.0281), 'balanced_accuracy': np.float64(0.9323), 'macro_F1': np.float64(0.9365), 'cohen_kappa': np.float64(0.9305)}
+STRICT: {'accuracy': 0.8115, 'macro_F1': 0.7816, 'cohen_kappa': 0.7534}
+
+model saved -> D:\Documents\Major project\Evaluation 3\gait_system\models\gait_classifier.joblib
+figures -> D:\Documents\Major project\Evaluation 3\gait_system\outputs\figures

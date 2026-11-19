@@ -1,0 +1,6 @@
+cluster,contacts,subjects,shape,rodda_graham_hint,stance_s,F1_pct,F1_time_pct,Fmin_pct,Fmin_time_pct,F2_pct,F2_time_pct,dip_depth_pct,loading_rate,vGRF_impulse_norm,AP_brake_pct,AP_prop_pct,AP_ratio,ML_range_pct
+Pattern 1,47,16,Preserved double bump,near-typical loading and push-off - mildest pattern,0.576,98.892,21.213,54.562,50.723,85.475,78.426,29.884,12.528,0.671,-15.827,15.482,1.068,8.774
+Pattern 2,29,9,"Impact-dominant, weak push-off","high early loading, little propulsion - hypothesis: equinus / forefoot loading",0.555,98.408,16.759,35.784,44.621,59.954,71.828,24.17,17.124,0.516,-9.372,12.307,0.853,11.327
+Pattern 3,30,11,"Early-dominant, reduced push-off",reduced propulsion with longer stance - hypothesis: apparent equinus / mild crouch,0.721,98.301,18.5,59.816,36.867,80.997,58.867,20.903,15.501,0.647,-12.018,10.527,1.725,13.224
+Pattern 4,83,28,Shallow double bump,little mid-stance unloading - hypothesis: stiff-knee / jump-type pattern,0.698,97.446,25.831,80.094,47.422,97.416,74.675,14.93,10.942,0.781,-14.896,14.32,1.151,9.988
+Pattern 5,55,20,"Flat plateau, slow loading",no mid-stance unloading - hypothesis: crouch-type loading (Rodda & Graham Group IV),0.86,98.243,35.382,88.125,51.0,94.941,65.327,5.267,5.532,0.727,-10.347,9.678,1.284,12.825

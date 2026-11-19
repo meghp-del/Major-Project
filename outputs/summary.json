@@ -1,0 +1,48 @@
+{
+  "data": {
+    "files_found": 219,
+    "duplicates_removed": 1,
+    "other_conditions_skipped": 0,
+    "trials_used": 218,
+    "trials_with_contacts": 216,
+    "subjects": 49,
+    "contacts": 244,
+    "rejected_plates_or_trials": 2,
+    "contacts_per_subject_median": 4.0
+  },
+  "pca": {
+    "components": 3,
+    "variance_pct": 86.3,
+    "per_pc_pct": [
+      55.7,
+      19.1,
+      11.5
+    ]
+  },
+  "final_clustering": {
+    "algorithm": "K-Means",
+    "k": 5,
+    "silhouette": 0.3035,
+    "agreement_ARI_with_Ward": 0.487,
+    "agreement_ARI_with_GMM": 0.481
+  },
+  "subject_consistency": {
+    "mean_share_of_dominant_pattern": 0.782,
+    "subjects_all_contacts_same_pattern": 22
+  },
+  "best_classifier": {
+    "features": "Waveform PCA",
+    "model": "MLP",
+    "accuracy": 0.9467,
+    "accuracy_fold_sd": 0.0281,
+    "balanced_accuracy": 0.9323,
+    "macro_F1": 0.9365,
+    "cohen_kappa": 0.9305
+  },
+  "strict_protocol": {
+    "accuracy": 0.8115,
+    "macro_F1": 0.7816,
+    "cohen_kappa": 0.7534
+  },
+  "trial_level_accuracy": 0.9398
+}
